@@ -2,8 +2,13 @@
 // Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in JavaScript.
 // Then, write and example of using the function.
 
-function max(){
-    // Your answer here
+function max(a,b){
+  if(a>b)
+  return a;
+  else {
+    return b;
+  }
+    //
 }
 
 
@@ -11,8 +16,15 @@ function max(){
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 // Then, write and example of using the function.
 
-function maxOfThree(){
-    // Your answer here
+function maxOfThree(a, b, c){
+  if (a>b && a>c)
+  return a;
+}
+else if (b > a && b > c) {
+  return b;
+  else {
+    return c;
+  }
 }
 
 
@@ -20,20 +32,32 @@ function maxOfThree(){
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // Then, write and example of using the function.
 
-function isVowel(char){
-    // Your answer here
+function isVowel(x){
+  if (x == "a"|| x == "e"|| x == "i"|| x == "o"|| x == "u") {
+  return true
+} else {
+  return false
 }
+
 
 
 // 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // Then, write and example of using the function.
+function sum(a, b) {
+  return a + b
+}
 
 
 
 // 5.
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
 // Then, write and example of using the function.
+function avg(a, b, c) {
+  return (a+b+c)/3
+}
+avg (1, 2, 3)/3;
+
 
 
 
@@ -41,6 +65,9 @@ function isVowel(char){
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
 
+function getLength() {
+  return str.length
+}
 
 
 // 7.
@@ -49,6 +76,14 @@ function isVowel(char){
 // Otherwise the function should return `false`.
 // Then, write and example of using the function.
 
+function greaterThan (a, b) {
+  if (b > a) {
+    return true;
+  } else {
+    return false;
+  }
+}
+greaterThan (4, 6);
 
 
 // 8.
@@ -57,7 +92,12 @@ function isVowel(char){
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 // Then, write and example of using the function.
+function greet (name){
+  if name = Georgia;
 
+  return "Hello, " + name + "!";
+}
+greet ("Hello," + name + "!")
 
 
 // 9.
@@ -68,3 +108,6 @@ function isVowel(char){
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+function madib (one, two, three, four){
+return "one  two  three  four"  
+}
