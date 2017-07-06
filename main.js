@@ -17,16 +17,15 @@ function max(a,b){
 // Then, write and example of using the function.
 
 function maxOfThree(a, b, c){
-  if (a>b && a>c)
+  if (a>b && a>c){
   return a;
-}
-else if (b > a && b > c) {
+} else if (b > a && b > c) {
   return b;
-  else {
+} else {
     return c;
   }
-}
 
+}
 
 // 3.
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
@@ -34,18 +33,18 @@ else if (b > a && b > c) {
 
 function isVowel(x){
   if (x == "a"|| x == "e"|| x == "i"|| x == "o"|| x == "u") {
-  return true
+  return true;
 } else {
-  return false
+  return false;
+  }
 }
-
 
 
 // 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // Then, write and example of using the function.
 function sum(a, b) {
-  return a + b
+  return a + b;
 }
 
 
@@ -54,7 +53,7 @@ function sum(a, b) {
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
 // Then, write and example of using the function.
 function avg(a, b, c) {
-  return (a+b+c)/3
+  return (a+b+c)/3;
 }
 avg (1, 2, 3)/3;
 
@@ -65,10 +64,10 @@ avg (1, 2, 3)/3;
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
 
-function getLength() {
-  return str.length
+function getLength(b) {
+  return b.length;
 }
-
+console.log(getLength("Hello world"));
 
 // 7.
 // Write a function called `greaterThan` that takes two parameters
@@ -108,6 +107,9 @@ greet ("Hello," + name + "!")
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
-function madib (one, two, three, four){
-return "one  two  three  four"  
-}
+// function madib (one, two, three, four){
+// return "one  two  three  four"
+//
+  function madlib(red, blue, white, green) {
+  return "red, blue, white, green"
+  }
